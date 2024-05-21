@@ -1,0 +1,14 @@
+
+canvas {
+    border: 1px solid lightgrey;
+    margin-left: 200px;
+}
+
+body {
+    background-color:azure;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
