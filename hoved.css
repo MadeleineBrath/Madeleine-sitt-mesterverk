@@ -1,14 +1,93 @@
 
 canvas {
     border: 1px solid lightgrey;
-    margin-left: 200px;
 }
 
 body {
-    background-color:azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    /*background: linear-gradient(0deg, rgb(144, 105, 185)0%,rgb(246, 242, 243));*/
+    background-color: rgb(116, 181, 238);
 }
 
 h1 {
     text-align: center;
     font-size: 60px;
+    margin-bottom: 15px;
+}
+
+#span1 {
+    margin-left: 50px
+}
+
+#span2 {
+    margin-left: 500px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h4{
+    text-align: left;
+    font-size: 15px;
+}
+
+p {
+    margin: 0px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.div3 {
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    border: solid;
+    text-align: center;
+    max-width: 550px;
+    width: 100%;
+    border-radius: 7px;
+}
+
+#game-over{
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 15px;
+    border: solid;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 7px;
+}
+
+button, .start-button {
+    margin-top: 12px;
+    background-color: rgb(255, 178, 171);
+    border: none;
+    font-size: 25px;
+    padding: 10px 10px;
+    border-radius: 7px;
+    cursor: pointer;
 }

@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Mini game </title>
     <link rel="stylesheet" href="hoved.css">
 </head>
+
 <body>
     <h1> Mini game </h1>
+
+    <div class="div1">
+        <span id="span1">Score: <span id="score">0</span></span>
+        <span id="span2"> Highscore: <span id="highscore"> 0 </span></span>
+    </div>
+
+    <div class="div2" id="game-over">
+        <h2> Game over </h2>
+        <h3 id="final_score"> </h3>
+        <p> Poeng </p>
+        <button id="button"> Restart </button>
+    </div>
+
+    <div class="div3">
+        <h3> Press "Start" to play </h3>
+        <h4> Bruk piltastene til å bevege figuren eller bruk bokstavene "a, w, d" på tastaturet.
+            <br> <br> Skyt kuler ved å trykke på mellomromsknappen på tastaturet.
+            <br> <br> Tjen opp poeng for hver enemy du treffer og jo høyere du kommer på spillbrettet!
+        </h4>
+        <button id="start-button"> START </button>
+    </div>
+
     <canvas id="mini_game"> </canvas>
-    <script src="hoved.js"></script>
-    <script  src="player.js"></script>
+    <script defer src="spill.js"> </script>
 </body>
+
 </html>
